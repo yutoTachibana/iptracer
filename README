@@ -1,0 +1,32 @@
+* What
+
+  iptracer is a command-line client for iptracer.
+
+* Install
+
+  $ easy_install mechanize
+  $ easy_install BeautifulSoup
+  $ sudo cp iptracer.py /usr/bin/iptracer
+  $ sudo chmod 755 /usr/bin/iptracer
+
+* Screenshot
+
+  $ iptracer www.google.com
+  ==============================
+  target:www.google.com
+  ==============================
+  www.google.com IP address location &amp; more:None
+  Host of the IP:www.google.com
+  Host IP [?]:74.125.228.20
+  IP country code:US
+  IP address country:United States
+  IP address state:California
+  IP address city:Mountain View
+  IP postcode:94043
+  IP address latitude:37.4192
+  IP address longitude:-122.0574
+  ISP of this IP [?]:Google
+  Organization:Google
+  Local time in United States:2014-06-10 02:31
+
+  https://www.google.co.jp/maps/place//@37.4192,-122.0574,15z
